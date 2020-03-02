@@ -1,0 +1,5 @@
+{
+    "port": 4000,
+    "user_pic_folder": "assets/pics",
+    "user_pic_max_size": 3145728
+}
