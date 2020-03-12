@@ -1,0 +1,24 @@
+{
+  "name": "mwa-homework-08-mongodb-02-endoedgar",
+  "version": "1.0.0",
+  "description": "Considering the following [`restaurants`](http://mumstudents.org/cs572/lecture08/restaurants.zip) collection that has information about all restaurants in the USA. Import the data into a local/cloud DB server. ```javascript {  \"address\": { \"building\": \"1007\",  \t       \"coord\": [ -73.856077, 40.848447 ],  \t       \"street\": \"Morris Park Ave\",  \t       \"zipcode\": \"10462\" },  \"district\": \"Bronx\",  \"cuisine\": \"Bakery\",      \"grades\": [ {\"date\": {\"$date\": 1393804800000}, \"grade\": \"A\", \"score\": 2},                 {\"date\": {\"$date\": 1378857600000}, \"grade\": \"A\", \"score\": 6},                  {\"date\": {\"$date\": 1358985600000}, \"grade\": \"A\", \"score\": 10},                  {\"date\": {\"$date\": 1322006400000}, \"grade\": \"A\", \"score\": 9},                  {\"date\": {\"$date\": 1299715200000}, \"grade\": \"B\", \"score\": 14}],      \"name\": \"Morris Park Bake Shop\",      \"restaurant_id\": \"30075445\"  } ``` 1. Write a MongoDB query to display all the documents in the collection restaurants.  ```javascript db.restaurants.find({}) ```",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maharishi-university/mwa-homework-08-mongodb-02-endoedgar.git"
+  },
+  "author": "endoedgar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maharishi-university/mwa-homework-08-mongodb-02-endoedgar/issues"
+  },
+  "homepage": "https://github.com/maharishi-university/mwa-homework-08-mongodb-02-endoedgar#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonschema": "^1.2.5",
+    "mongodb": "^3.5.4"
+  }
+}

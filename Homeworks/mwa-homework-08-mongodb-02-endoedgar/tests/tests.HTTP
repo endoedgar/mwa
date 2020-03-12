@@ -1,0 +1,12 @@
+POST http://localhost:4000/locations/
+Content-Type: application/json
+
+{
+    "name": "Arandas Mexican Restaurant",
+    "category": "Restaurant",
+    "location": [-91.9655306, 41.007791]
+}
+###
+GET http://localhost:4000/locations/
+###
+GET http://localhost:4000/locations/?type=nearest

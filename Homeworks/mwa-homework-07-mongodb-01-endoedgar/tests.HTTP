@@ -1,0 +1,13 @@
+POST http://localhost:4000/lectures
+Content-Type: application/json
+
+{
+    "course": "MPP",
+    "lecture": "Some lecture again"
+}
+###
+GET http://localhost:4000/lectures
+###
+DELETE http://localhost:4000/lectures/5e4e5baae45ac31076dfdc8e
+###
+GET http://localhost:4000/lectures/5e5e69de3af6ef3fb6203bf3

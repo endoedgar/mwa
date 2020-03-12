@@ -1,0 +1,19 @@
+{
+    "port": 4000,
+    "MIULocation": [41.017654, 91.9665342],
+    "mongoDbURL": "mongodb://127.0.0.1:27017/homework08",
+    "locationSchema": {
+        "type": "object",
+        "properties": {
+            "name": { "type": "string" },
+            "category": { "type": "string" },
+            "location": {
+                "type": "array",
+                "items": {"type": "number"},
+                "minItems": 2,
+                "maxItems": 2
+            }
+        },
+        "required": ["name", "category", "location"]
+    }
+}

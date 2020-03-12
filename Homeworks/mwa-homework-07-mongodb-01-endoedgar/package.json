@@ -1,0 +1,23 @@
+{
+  "name": "mwa-homework-07-mongodb-01-endoedgar",
+  "version": "1.0.0",
+  "description": "Create a NoSQL design model for an application to manage a library, taking into consideration the following requirements: * Books have an `ISBN number` and are categorized by `author` and tagged by `keywords` to facilitate search * Books can be borrowed by students, so the librarian will be able to check all borrowed books and their `return date` so he may contact students who are late returning their books.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maharishi-university/mwa-homework-07-mongodb-01-endoedgar.git"
+  },
+  "author": "endoedgar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maharishi-university/mwa-homework-07-mongodb-01-endoedgar/issues"
+  },
+  "homepage": "https://github.com/maharishi-university/mwa-homework-07-mongodb-01-endoedgar#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.4"
+  }
+}
