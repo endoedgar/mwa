@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/maharishi-university/mwa-homework-07-mongodb-01-endoedgar#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongodb": "^3.5.4"
   }
 }
